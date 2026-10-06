@@ -1,45 +1,46 @@
-# Awesome Real-Time Data Streaming Ecosystem
+# 🚀 Awesome Real-Time Data Streaming Ecosystem
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.to/github/stars/ishandutta2007/Awesome-Real-Time-Data-Streaming?style=social)](https://github.com/ishandutta2007/Awesome-Real-Time-Data-Streaming/stargazers)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) [![GitHub stars](https://img.shields.to/github/stars/ishandutta2007/Awesome-Real-Time-Data-Streaming?style=social)](https://github.com/ishandutta2007/Awesome-Real-Time-Data-Streaming/stargazers) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.to/github/followers/ishandutta2007?label=Follow" /></a>
 
 ![Awesome Real-Time Data Streaming Banner](assets/banner.svg)
 
-## Curated Guide to SaaS Platforms & Open-Source Streaming Technologies
+## 📚 Curated Guide to SaaS Platforms & Open-Source Streaming Technologies
 
 *A comprehensive reference for Event Streaming, Message Brokers, Stream Processing Engines, Change Data Capture (CDC), and Real-Time Data Pipelines.*
 
-**Last updated: October 2026**
+**📅 Last updated: October 2026**
 
 ---
 
-### Overview & SEO Keywords
+### 🔍 Overview & SEO Keywords
 Real-time data streaming forms the operational backbone of modern event-driven architectures, real-time analytics, dynamic recommendation systems, microservices communication, and instant IoT processing. This curated list tracks top-tier **commercial SaaS platforms** and high-impact **open-source projects** designed to ingest, buffer, transform, and deliver continuous data streams at enterprise scale.
 
 ---
 
-## Table of Contents
+## 📌 Table of Contents
 
-- [Market Size & Industry Structure](#market-size--industry-structure)
-- [SaaS & Managed Streaming Platforms](#saas--managed-streaming-platforms)
-- [Open-Source Streaming Projects](#open-source-streaming-projects)
-  - [Top Open-Source Ecosystem (Sorted by GitHub Stars)](#top-open-source-ecosystem-sorted-by-github-stars)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Best Practices](#disclaimer--best-practices)
-
----
-
-## Market Size & Industry Structure
-
-> **Market Insights (2026)**: The global real-time data streaming market is valued at **~$15.4 Billion in 2026** and is projected to reach **~$40.2 Billion by 2030** at a **21.5% CAGR**. The sector is **moderately fragmented**: while major cloud hyperscalers (AWS, Azure, GCP) command substantial enterprise share via managed services, specialized streaming vendors (such as Confluent, Redpanda, and Aiven) and a vibrant open-source ecosystem (Apache Kafka, Flink, Pulsar) maintain strong market independence, preventing a single winner-take-all consolidation.
+- [📊 Market Size & Industry Structure](#-market-size--industry-structure)
+- [☁️ SaaS & Managed Streaming Platforms](#%EF%B8%8F-saas--managed-streaming-platforms)
+- [🔓 Open-Source Streaming Projects](#-open-source-streaming-projects)
+  - [⭐ Top Open-Source Ecosystem (Sorted by GitHub Stars)](#-top-open-source-ecosystem-sorted-by-github-stars)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer & Best Practices](#%EF%B8%8F-disclaimer--best-practices)
 
 ---
 
-## SaaS & Managed Streaming Platforms
+## 📊 Market Size & Industry Structure
+
+> 💡 **Market Insights (2026)**: The global real-time data streaming market is valued at **~$15.4 Billion in 2026** and is projected to reach **~$40.2 Billion by 2030** at a **21.5% CAGR**. The sector is **moderately fragmented**: while major cloud hyperscalers (AWS, Azure, GCP) command substantial enterprise share via managed services, specialized streaming vendors (such as Confluent, Redpanda, and Aiven) and a vibrant open-source ecosystem (Apache Kafka, Flink, Pulsar) maintain strong market independence, preventing a single winner-take-all consolidation.
+
+---
+
+## ☁️ SaaS & Managed Streaming Platforms
 
 Below is a comparison of top managed real-time data streaming services, sorted by **Company Size / Valuation / Market Cap (Descending)**.
 
-| Platform | Target Use Case & Focus | Company Valuation / Market Cap | Starting Pricing | Free Tier & Trial Limits |
+| Platform | 🎯 Target Use Case & Focus | 🏢 Company Valuation / Market Cap | 💵 Starting Pricing | 🎁 Free Tier & Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Azure Event Hubs](https://azure.microsoft.com/en-us/products/event-hubs/)** | Enterprise big data streaming & event ingestion native to Microsoft Azure | **~$3.1 Trillion** *(Microsoft)* | **$0.015/hour** per Throughput Unit (~$11/mo) + **$0.028** per 1M events | **$200 free credit** (30 days) + **1,000,000 events/mo free** for 12 months |
 | **[Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/)** | Scalable real-time event streaming native to the AWS ecosystem | **~$2.1 Trillion** *(Amazon)* | **$0.015/shard-hour** + **$0.014** per 1,000,000 PUT Payload Units | **1,000,000 PUT records/month free** for 2 months via AWS Free Tier |
@@ -53,13 +54,13 @@ Below is a comparison of top managed real-time data streaming services, sorted b
 
 ---
 
-## Open-Source Streaming Projects
+## 🔓 Open-Source Streaming Projects
 
 Real-time data streaming is anchored by robust open-source software. The table below ranks prominent open-source streaming technologies sorted strictly by **GitHub Star Count (Descending)**.
 
-### Top Open-Source Ecosystem (Sorted by GitHub Stars)
+### ⭐ Top Open-Source Ecosystem (Sorted by GitHub Stars)
 
-| Repository & Project | GitHub Star Badge | Domain / Primary Category | Key Features & Best Use Case |
+| Repository & Project | 🌟 GitHub Star Badge | 🛠️ Domain / Primary Category | ⚡ Key Features & Best Use Case |
 | :--- | :---: | :--- | :--- |
 | **[ClickHouse](https://github.com/clickhouse/clickhouse)** | [![GitHub stars](https://img.shields.to/github/stars/clickhouse/clickhouse?style=social)](https://github.com/clickhouse/clickhouse/stargazers) | Real-Time Analytical Database | High-performance column-oriented DBMS for real-time streaming analytics queries and instant dashboards. |
 | **[Apache Spark](https://github.com/apache/spark)** | [![GitHub stars](https://img.shields.to/github/stars/apache/spark?style=social)](https://github.com/apache/spark/stargazers) | Unified Batch & Stream Processing | Structured Streaming engine providing micro-batch & continuous stream processing with exactly-once guarantees. |
@@ -86,24 +87,43 @@ Real-time data streaming is anchored by robust open-source software. The table b
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions are welcome! Please follow these simple guidelines:
 
-1. **Fork** this repository.
-2. Update `README.md` keeping formatting, links, and sorting criteria consistent.
-3. For SaaS entries: Ensure specific pricing tier and free plan/trial limits are stated.
-4. For Open-Source entries: Include the exact `style=social` star badge linking to the stargazers URL.
-5. Submit a **Pull Request** with a brief summary of additions or updates.
+1. 🍴 **Fork** this repository.
+2. 📝 Update `README.md` keeping formatting, links, and sorting criteria consistent.
+3. 💵 For SaaS entries: Ensure specific pricing tier and free plan/trial limits are stated.
+4. ⭐ For Open-Source entries: Include the exact `style=social` star badge linking to the stargazers URL.
+5. 🚀 Submit a **Pull Request** with a brief summary of additions or updates.
 
 ---
 
-## Disclaimer & Best Practices
+## ☕ Support & Sponsorship
 
-- **Community Curated**: This repository serves as a community catalog and does not constitute an endorsement.
-- **Licensing Compliance**: Verify open-source software licenses against your organization's compliance policy (e.g., Apache-2.0 vs BSL vs CCL).
-- **Data Engineering Practices**: Ensure streaming systems deployed in production incorporate proper security encryption (TLS/mTLS), access control lists (ACLs), schema management, and monitoring.
+Thank you so much for using and contributing to **Awesome Real-Time Data Streaming**! 💖
+
+If you find this project helpful for your real-time data engineering, event-driven architectures, or platform research, please consider supporting the project:
+
+- ⭐ **Star** this repository to show your appreciation!
+- 🔀 **Fork** and share it with your teammates and network.
+- 💬 Join our community on [Discord](https://discord.gg/jc4xtF58Ve).
+- ☕ **Sponsor / Buy Me a Coffee**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
-<p center><b>Made with ❤️ for Data Engineers, Software Architects, and Event-Driven Platform Teams.</b></p>
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Real-Time-Data-Streaming&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Real-Time-Data-Streaming&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer & Best Practices
+
+- 🛡️ **Community Curated**: This repository serves as a community catalog and does not constitute an endorsement.
+- 📜 **Licensing Compliance**: Verify open-source software licenses against your organization's compliance policy (e.g., Apache-2.0 vs BSL vs CCL).
+- 🔒 **Data Engineering Practices**: Ensure streaming systems deployed in production incorporate proper security encryption (TLS/mTLS), access control lists (ACLs), schema management, and monitoring.
+
+---
+
+<p align="center"><b>Made with ❤️ for Data Engineers, Software Architects, and Event-Driven Platform Teams.</b></p>
